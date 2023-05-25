@@ -1,1 +1,5 @@
-deu certo
+<?php
+session_start();
+echo $_SESSION['nome'];
+
+?>
