@@ -4,15 +4,17 @@ session_start();
 
 <html>
   <body>
-    olá, <?php
+    <center>
+    <h1>olá, <?php
     if(isset($_SESSION['nome'])==null){
     ?>
-     visitante <br>
+     visitante </h1>
      <a href="login.php">login</a>
      <?php } else {
         echo $_SESSION['nome']; ?>
-     <br><a href="cadastro.php">cadastrar</a><br>
+     </h1><br><a href="cadastro.php">cadastrar</a><br>
          <a href="logout.php">sair</a>
          <?php } ?>
+     </center>
    <body>
 </html>
