@@ -13,6 +13,7 @@ session_start();
      <?php } else {
         echo $_SESSION['nome']; ?>
      </h1><br><a href="cadastro.php">cadastrar</a><br>
+         <a href="alterar senha.php">alterar senhar</a><br>
          <a href="logout.php">sair</a>
          <?php } ?>
      </center>
