@@ -11,3 +11,6 @@ CREATE TABLE login (
 
 insert INTO login (nome, login, senha)
 VALUE ('administrador', 'admin', 'FPB123');
+
+GRANT ALL PRIVILEGES ON bancoa3.* TO 'seu_usuario'@'localhost' IDENTIFIED BY 'sua_senha';
+FLUSH PRIVILEGES;
