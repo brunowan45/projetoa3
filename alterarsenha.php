@@ -41,6 +41,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <title>Alterar Senha</title>
 </head>
 <body>
+    <center>
     <h1>Alterar Senha</h1>
     <form method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>">
         <label for="login">Login:</label>
@@ -54,5 +55,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         <input type="submit" value="Alterar Senha">
     </form>
+    </center>
 </body>
 </html>
