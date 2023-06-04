@@ -8,7 +8,7 @@ session_start();
     <h1>Olá, <?php
     if(isset($_SESSION['nome'])==null){
     ?>
-     visitante </h1>
+     Visitante </h1>
      <a href="login.php">login</a>
      <?php } else {
         echo $_SESSION['nome']; ?>
