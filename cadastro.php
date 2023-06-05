@@ -7,6 +7,9 @@
             login: <input type = "text" name= "login" required><br>
             senha: <input type = "password" name= "senha" required><br><br>
             <input type = "submit" name = "cadastrar" value = "cadastrar">
+            <p>
+            <a href="login.php">Voltar</a><br>
+            </p>
     </form>
         </center>
   </body>
