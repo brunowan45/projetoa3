@@ -54,6 +54,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <input type="password" name="new_password" required><br><br>
 
         <input type="submit" value="Alterar Senha">
+        <p>
+        <a href="login.php">Voltar</a><br>
+        </p>
     </form>
     </center>
 </body>
