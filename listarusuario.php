@@ -17,16 +17,48 @@ if ($conn->connect_error) {
 $sql = "SELECT login FROM login";
 $result = $conn->query($sql);
 
-if ($result->num_rows > 0) {
-    echo "Nomes dos Login:\n";
-    while ($row = $result->fetch_assoc()) {
-        echo $row["login"] . "\n";
-    }
-} else {
-    echo "Nenhum nome encontrado na tabela 'login'.\n";
-}
-
 // Fechando a conexão com o banco de dados
 $conn->close();
 ?>
 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lista de Logins</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f1f1f1;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>Lista de Logins</h1>
+        <?php
+        if ($result->num_rows > 0) {
+            echo "<ul>";
+            while ($row = $result->fetch_assoc()) {
+                echo "<li>" . $row["login"] . "</li>";
+            }
+            echo "</ul>";
+        } else {
+            echo "Nenhum nome encontrado na tabela 'login'.";
+        }
+        ?>
+    </center>
+</body>
+</html>
