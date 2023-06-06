@@ -55,7 +55,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         <input type="submit" value="Alterar Senha">
         <p>
-        <a href="login.php">Voltar</a><br>
+        <a href="index.php">Voltar</a><br>
         </p>
     </form>
     </center>
