@@ -13,7 +13,7 @@
 			Senha: <input type="password" name="senha" required><br><br>
 			<input type="submit" name="entrar" value="Entrar">
             <p>
-            <a href="alterarsenha2.php">Mudar Senha</a><br>
+            <a href="alterarsenha2.php">Esqueceu a senha?</a><br>
             </p>
 		</form>
 	</center>
