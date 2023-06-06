@@ -51,7 +51,7 @@
 		}
 
 		a {
-			color: ;
+			color: #0d67a3;
 			text-decoration: none;
 		}
 
