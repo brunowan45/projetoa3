@@ -37,9 +37,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <title>Alterar Senha</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f1f1f1;
-        }
+			font-family: Arial, sans-serif;
+			background-color: #9676c5;
+		}
 
         center {
             margin-top: 100px;
@@ -76,7 +76,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         input[type="submit"] {
             width: 100%;
             padding: 10px;
-            background-color: #4CAF50;
+            background-color: blue;
             color: #fff;
             border: none;
             border-radius: 4px;
@@ -84,11 +84,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         }
 
         input[type="submit"]:hover {
-            background-color: #45a049;
+            background-color: red;
         }
 
         a {
-            color: #999;
+            color: #0d67a3;
             text-decoration: none;
         }
 
