@@ -14,7 +14,7 @@ session_start();
         echo $_SESSION['nome']; ?>
      </h1><br><a href="cadastro.php">Cadastrar</a><br>
          <a href="listarusuario.php">Listas de usuários</a><br>
-         <a href="alterarsenha.php">Alterar senha</a><br>
+         <a href="alterarsenha.php">Esqueceu a senha?</a><br>
          <a href="logout.php">Sair</a>
          <?php } ?>
      </center>
