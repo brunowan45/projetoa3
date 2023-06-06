@@ -15,7 +15,7 @@
 		}
 
 		h1 {
-			color: dark;
+			color: #333;
 		}
 
 		form {
@@ -51,7 +51,7 @@
 		}
 
 		a {
-			color: #999;
+			color: ;
 			text-decoration: none;
 		}
 
