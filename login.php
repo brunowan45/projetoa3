@@ -4,17 +4,10 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Projeto A3 - Programação e Modelagem Manhã</title>
-    <style>
-        <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Projeto A3 - Programação e Modelagem Manhã</title>
 	<style>
 		body {
 			font-family: Arial, sans-serif;
-			background-color: red;
+			background-color: #647e8d;
 		}
 
 		center {
@@ -28,7 +21,7 @@
 		form {
 			width: 300px;
 			padding: 20px;
-			background-color: #fff;
+			background-color: #9acddc;
 			border-radius: 5px;
 			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 		}
@@ -46,7 +39,7 @@
 		input[type="submit"] {
 			width: 100%;
 			padding: 10px;
-			background-color: #4CAF50;
+			background-color: blue;
 			color: #fff;
 			border: none;
 			border-radius: 4px;
@@ -74,14 +67,9 @@
 			Login: <input type="text" name="login" required><br>
 			Senha: <input type="password" name="senha" required><br><br>
 			<input type="submit" name="entrar" value="Entrar">
-            <p>
-            Não tem conta?, crie um agora <a href="cadastro.php">Criar Conta</a><br>
-            <p>
-            <a href="alterarsenha2.php">Esqueceu a senha?</a><br>
-            </p>
+			<p>Não tem conta?, Crie uma agora <a href="cadastro.php">Criar Conta</a></p>
+			<p><a href="alterarsenha2.php">Esqueceu a senha?</a></p>
 		</form>
 	</center>
 </body>
 </html>
-
-    </style>
