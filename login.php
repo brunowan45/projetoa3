@@ -12,6 +12,9 @@
 			Login: <input type="text" name="login" required><br>
 			Senha: <input type="password" name="senha" required><br><br>
 			<input type="submit" name="entrar" value="Entrar">
+            <p>
+            <a href="alterarsenha2.php">Mudar Senha</a><br>
+            </p>
 		</form>
 	</center>
 </body>
