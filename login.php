@@ -67,7 +67,7 @@
 			Login: <input type="text" name="login" required><br>
 			Senha: <input type="password" name="senha" required><br><br>
 			<input type="submit" name="entrar" value="Entrar">
-			<p>Não tem conta?, Crie uma agora <a href="cadastro.php">Criar Conta</a></p>
+			<p>Não tem conta?, Crie uma conta <a href="cadastro.php">aqui!</a></p>
 			<p><a href="alterarsenha2.php">Esqueceu a senha?</a></p>
 		</form>
 	</center>
