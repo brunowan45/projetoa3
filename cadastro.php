@@ -5,7 +5,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f1f1f1;
+            background-color: #AD2230;
             text-align: center;
             padding-top: 100px;
         }
@@ -19,7 +19,8 @@
         }
 
         input[type="text"],
-        input[type="password"] {
+        input[type="password"],
+        input[type="date"] { /* Adicionado estilo para o campo de data */
             padding: 8px;
             margin-bottom: 10px;
             width: 200px;
@@ -29,7 +30,7 @@
 
         input[type="submit"] {
             padding: 8px 15px;
-            background-color: #4CAF50;
+            background-color: blue;
             color: #fff;
             border: none;
             border-radius: 4px;
@@ -37,7 +38,7 @@
         }
 
         input[type="submit"]:hover {
-            background-color: #45a049;
+            background-color: red;
         }
 
         a {
@@ -54,9 +55,15 @@
     <center>
         <h1>Cadastro</h1>
         <form id="Cadastro" action="cadastrar.php" method="POST">
-            nome: <input type="text" name="nome" required><br>
-            login: <input type="text" name="login" required><br>
-            senha: <input type="password" name="senha" required><br><br>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" required><br>
+
+            <label for="login">Login:</label>
+            <input type="text" name="login" required><br>
+
+            <label for="senha">Senha:</label>
+            <input type="password" name="senha" required><br>
+
             <input type="submit" name="cadastrar" value="Cadastrar">
             <p>
                 <a href="login.php">Voltar</a><br>
